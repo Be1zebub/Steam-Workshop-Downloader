@@ -51,7 +51,7 @@ local function Download(addon, cback)
 
 	local succ, res, response = pcall(http.request, "POST", "https://node05.steamworkshopdownloader.io/prod/api/download/request", {
 		{"Content-Type", "application/json"}
-	}, '{"publishedFileId":'.. addon.id ..', "collectionId":null, "hidden":false, "downloadFormat":"gmaextract", "autodownload":true}')
+	}, '{"publishedFileId":'.. addon.id ..', "collectionId":null, "hidden":false, "downloadFormat":"'.. (args[2] or "gmaextract") ..'", "autodownload":true}')
 
 	if succ then
 		if res.code == 200 then
