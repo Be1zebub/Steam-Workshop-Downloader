@@ -1,5 +1,4 @@
 # Steam-Workshop-Downloader
-<img alt="Visitors" src="https://visitor-badge.laobi.icu/badge?page_id=Be1zebub.Steam-Workshop-Downloader"/> 
 
 console tool for batch downloading workshop items from your terminal!
 ![Preview GIF](https://github.com/Be1zebub/Steam-Workshop-Downloader/blob/main/preview.gif?raw=true)
@@ -19,3 +18,5 @@ lit install luvit/secure-socket@1.2.2
 ## Usage:
 Make shure you have `swd.lua` and `addons.json` & then just run downloader with: `luvit swd.lua`   
 If the game whose workshop items you are downloading is not a gmod, use `luvit swd.lua raw`
+
+<img alt="Visitors" src="https://visitor-badge.laobi.icu/badge?page_id=Be1zebub.Steam-Workshop-Downloader"/> 
