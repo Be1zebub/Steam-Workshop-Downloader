@@ -1,5 +1,7 @@
 # Steam-Workshop-Downloader
 
+## DEPRECATED! https://steamworkshopdownloader.io/ no longer works.
+
 console tool for batch downloading workshop items from your terminal!
 ![Preview GIF](https://github.com/Be1zebub/Steam-Workshop-Downloader/blob/main/preview.gif?raw=true)
 ![Preview JPG](https://github.com/Be1zebub/Steam-Workshop-Downloader/blob/main/preview.jpg?raw=true)
